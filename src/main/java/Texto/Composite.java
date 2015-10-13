@@ -28,6 +28,7 @@ public class Composite extends Componente{
 
 	@Override
 	public String dibujar(boolean mayusculas) {
+		return null;
            
 		
 	}
