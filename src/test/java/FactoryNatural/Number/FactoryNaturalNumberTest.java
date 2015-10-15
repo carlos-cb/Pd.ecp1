@@ -1,10 +1,10 @@
-package Composite.expresion;
+package FactoryNatural.Number;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class ExpresionTest {
+public class FactoryNaturalNumberTest {
 
 	@Test
 	public void test() {

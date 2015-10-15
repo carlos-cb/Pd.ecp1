@@ -1,4 +1,4 @@
-package Singleton.FactoryTest;
+package Singleton.Factory;
 
 import static org.junit.Assert.*;
 

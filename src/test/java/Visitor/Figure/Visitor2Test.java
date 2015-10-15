@@ -1,4 +1,4 @@
-package VisitorTest;
+package Visitor.Figure;
 
 import static org.junit.Assert.assertEquals;
 
