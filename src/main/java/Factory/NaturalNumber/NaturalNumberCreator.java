@@ -1,4 +1,4 @@
-package FactoryNaturalNumber;
+package Factory.NaturalNumber;
 
 public abstract class NaturalNumberCreator {
 	

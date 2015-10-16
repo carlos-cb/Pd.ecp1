@@ -1,13 +1,10 @@
-package FactoryNaturalNumber;
+package Factory.NaturalNumber;
 
 public class NaturalNumberManager {
 	
 	private NaturalNumber naturalNumber;
 	
 	private NaturalNumberCreator naturalNumberCreator;
-	
-	
-	
 	
 	public void setCreator(NaturalNumberCreator naturalNumberCreator){
 		this.naturalNumberCreator = naturalNumberCreator;

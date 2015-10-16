@@ -1,16 +1,14 @@
-package FactoryNaturalNumber;
+package Factory.NaturalNumber;
 
 public class NaturalNumber {
     private int value;
-    private String[] textValue;
+    protected String[] textValue;
 
+    public NaturalNumber(int value) {
+		this.value = value;
+	}
 
-    public NaturalNumber(int value, String[] textValue) {
-        this.setValue(value);
-        this.setTextValue(textValue);
-    }
-
-    public int getValue() {
+	public int getValue() {
         return value;
     }
 
