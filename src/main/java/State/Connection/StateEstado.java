@@ -9,7 +9,7 @@ public abstract class StateEstado {
     }
     
     public Estado getEstado() {
-        return estado;
+        return this.estado;
     }
 
 	public void abrir(Conexion conexion) {

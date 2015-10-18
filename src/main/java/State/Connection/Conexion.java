@@ -15,8 +15,8 @@ public class Conexion {
 	        return link;
 	    }
 
-	    public StateEstado getEstado() {
-	        return this.estado;
+	    public Estado getEstado() {
+	        return this.estado.getEstado();
 	    }
 
 	    public void abrir() {
