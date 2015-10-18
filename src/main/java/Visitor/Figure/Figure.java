@@ -2,10 +2,17 @@ package Visitor.Figure;
 
 public abstract class Figure {
 
+	private String description;
+	
     public Figure(String description) {
     }
-    
-    public abstract double area();
-    public abstract double numberOfSides();
 
+    public String getDescription(){
+    	return description;
+    }
+    
+    public void accept(Visitor visitor){
+    	
+    }
+    
 }

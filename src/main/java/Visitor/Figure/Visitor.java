@@ -2,10 +2,10 @@ package Visitor.Figure;
 
 public abstract class Visitor {
 	
-	public abstract void Circle();
+	public abstract void visitCircle(Circle circle);
 	
-	public abstract void Square();
+	public abstract void visitSquare(Square square);
 	
-	public abstract void Triangle();
+	public abstract void visitTriangle(Triangle triangle);
 
 }
