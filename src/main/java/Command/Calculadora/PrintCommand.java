@@ -10,7 +10,7 @@ public class PrintCommand extends Command{
 	
 	@Override
 	public void execute() {
-		IO.getIO().print(calculator.getTotal());
+		IO.getIO().println(calculator.getTotal());
 	}
 	
 	@Override

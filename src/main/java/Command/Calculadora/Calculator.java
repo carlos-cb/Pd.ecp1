@@ -1,5 +1,7 @@
 package Command.Calculadora;
 
+import upm.jbb.IO;
+
 public class Calculator {
     private int total;
 
@@ -26,4 +28,12 @@ public class Calculator {
     public void reset() {
         this.setTotal(0);
     }
+
+	public MementoCalculadora createMemento() {
+		return new MementoCalculadora(total, IO.getIO().readString("State :"));
+	}
+	
+	public void restoreMemento(MementoCalculadora memento) {
+        this.total = memento.getValor();
+	}
 }
