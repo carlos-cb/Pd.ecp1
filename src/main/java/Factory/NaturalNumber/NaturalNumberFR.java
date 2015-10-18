@@ -6,8 +6,8 @@ public class NaturalNumberFR extends NaturalNumber{
 			"nul", "un", "deux", "trois", "quatre", "cinq"
 	};
 	
-	public NaturalNumberFR(int value) {
-		super(value);
+	public NaturalNumberFR() {
+		super();
 		this.setTextValue(textValue);
 
 	}

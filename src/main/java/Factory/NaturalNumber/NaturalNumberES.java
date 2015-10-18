@@ -6,8 +6,8 @@ public class NaturalNumberES extends NaturalNumber{
 			"cero", "uno", "dos", "tres", "cuatro", "cinco"
 	};
 	
-	public NaturalNumberES(int value) {
-		super(value);
+	public NaturalNumberES() {
+		super();
 		this.setTextValue(textValue);
 
 	}

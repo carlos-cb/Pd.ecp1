@@ -6,16 +6,20 @@ public class NaturalNumberManager {
 	
 	private NaturalNumberCreator naturalNumberCreator;
 	
+	public NaturalNumberManager(){
+		this.naturalNumber = new NaturalNumberES();
+	}
+	
 	public void setCreator(NaturalNumberCreator naturalNumberCreator){
 		this.naturalNumberCreator = naturalNumberCreator;
 	}
 
-	public void creatnaturalNumber(int value){
-		this.naturalNumber = this.naturalNumberCreator.creatNaturalNumber(value);
+	public void creatnaturalNumber(){
+		this.naturalNumber = this.naturalNumberCreator.creatNaturalNumber();
 	}
 	
 	public NaturalNumber getNaturalNumber(){
-		return naturalNumber;		
+		return this.naturalNumber;		
 	}
 		
 }
